@@ -23,7 +23,7 @@ use Translation\Translator\Translator;
  *
  * @author Tobias Nyholm <tobias.nyholm@gmail.com>
  */
-final class FallbackTranslator implements TranslatorInterface
+final class FallbackTranslator implements TranslatorInterface, LegacyTranslatorInterface
 {
     /**
      * @var LegacyTranslatorInterface|NewTranslatorInterface
